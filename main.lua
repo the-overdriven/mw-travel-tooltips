@@ -245,7 +245,8 @@ local function createTravelMap(e)
         return
     end
 
-    local scale=config.scale/100
+    -- local scale=config.scale/100
+    local scale=config.scale/50
     local element=e.element
     local travelButton=element:findChild(tes3ui.registerID("MenuDialog_service_travel"))
 
